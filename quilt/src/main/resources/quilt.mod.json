@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "mixin": [
+    "bedrock_destroyer.mixins.json",
+    "bedrock_destroyer-common.mixins.json"
+  ],
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "bedrock_destroyer",
+    "version": "${version}",
+    "metadata": {
+      "name": "Bedrock Destroyer",
+      "description": "Removes bedrock from players",
+      "contributors": {
+        "MrMelon54": "Owner"
+      },
+      "contact": {
+        "homepage": "https://mrmelon54.com/minecraft/bedrock-destroyer",
+        "sources": "https://github.com/MrMelon54/bedrock_destroyer",
+        "issues": "https://github.com/MrMelon54/bedrock_destroyer/issues"
+      },
+      "license": "GPL-3.0-only",
+      "icon": "icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "com.mrmelon54.BedrockDestroyer.quilt.BedrockDestroyerQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20"
+      },
+      {
+        "id": "architectury",
+        "version": ">=9.0.0"
+      }
+    ]
+  },
+  "minecraft": {
+    "environment": "*"
+  }
+}

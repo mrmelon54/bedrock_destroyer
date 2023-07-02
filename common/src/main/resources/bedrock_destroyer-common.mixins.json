@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.mrmelon54.BedrockDestroyer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "MixinCreativeModeTab$ItemDisplayBuilder",
+    "MixinItemStack"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "modid": "bedrock_destroyer",
+  "modname": "Bedrock Destroyer",
+  "modclass": "BedrockDestroyer",
+  "modgroup": "com.mrmelon54.BedrockDestroyer",
+  "moddesc": "Removes bedrock from players",
+  "modwebsite": "https://mrmelon54.com/minecraft/bedrock-destroyer",
+  "modsource": "https://github.com/MrMelon54/bedrock_destroyer",
+  "modissue": "https://github.com/MrMelon54/bedrock_destroyer/issues"
+}
